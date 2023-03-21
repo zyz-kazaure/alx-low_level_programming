@@ -20,7 +20,11 @@ int main(void)
 		prev = next;
 		next = ans;
 		ans = prev + next;
-		if (i == 48)																			printf("%ld\n", ans);																else																				printf("%ld, ", ans);																				}
+		if (i == 48)
+			printf("%ld\n", ans);
+		else
+			printf("%ld, ", ans);
+	}
 	return (0);
 }
 
